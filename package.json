@@ -2,10 +2,10 @@
   "name": "toftslanguage",
   "version": "1.0.1",
   "description": "Language transformer that translates the TOFTS language to English and vice versa.",
-  "main": "index.ts",
+  "main": "dist/index.js",
   "scripts": {
     "test": "jest",
-    "build": "rm -rf dist/lib && tsc"
+    "build": "rm -rf dist && tsc"
   },
   "author": "Gerwin Terpstra",
   "license": "ISC",
