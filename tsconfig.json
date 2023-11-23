@@ -11,6 +11,6 @@
     "declaration": true,
     "declarationMap": true
   },
-  "include:": ["src/**/*"],
+  "include": ["*.ts"],
   "exclude": ["src/tests/**/*"]
 }
