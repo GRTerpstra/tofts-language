@@ -1,6 +1,6 @@
 {
   "name": "toftslanguage",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Language transformer that translates the TOFTS language to English and vice versa.",
   "main": "index.ts",
   "scripts": {
