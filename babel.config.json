@@ -1,4 +1,6 @@
 {
+  // The @babel/preset-typescript preset for Babel provides the necessary configuration and plugins to handle the TypeScript-to-JavaScript transformation
+  // The env preset is a group of plugins that help to compile modern/future versions of JavaScript (ES2015, ES2016, etc.) into a currently supported version of javascript.
   "presets": ["@babel/preset-typescript", "@babel/preset-env"],
   "ignore": ["src/tests", "node_modules"]
 }

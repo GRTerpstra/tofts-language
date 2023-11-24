@@ -1,15 +1,18 @@
 {
-  "name": "toftslanguage",
-  "version": "1.0.0",
+  "name": "toftslanguagetemp",
+  "version": "1.0.1",
   "description": "Language transformer that translates the TOFTS language to English and vice versa.",
   "//": "The files field is an array of file patterns that describes the entries to be included when your package is installed as a dependency. File patterns follow a similar syntax to .npmignore, but reversed (whitelist instead of blacklist)",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "scripts": {
     "test": "jest",
-    "//": "build into the lib folder because this project is a library. Usually the dist folder is for shipping an UMD that a user can use if they aren't using package management. The lib folder is what package.json main points to, and users that install your package using npm will consume that directly.",
+    "//": "Build into the lib folder because this project is a library. Usually the dist folder is for shipping an UMD that a user can use if they aren't using package management, and the lib folder is what the package.json main field should points to. Users that install the package using npm will consume what the main field points to directly.",
+    "//": "Babel transpiles TypeScript and compiles it into backward-compatible JavaScript.",
     "build:compile": "rm -rf lib && babel . --extensions .ts --out-dir lib ",
+    "//": "TypeScript does the type checking (with tsc (the npx command is used because tsc can't be added as devDependency)) and the .d.ts file generation.",
     "build:types": "npx tsc",
+    "//": "With the concurrently command (from the concurrently package) all the build commands can be run concurrently",
     "build": "concurrently npm:build:*"
   },
   "author": "Gerwin Terpstra",
@@ -28,7 +31,10 @@
   "files": [
     "lib",
     "readme.md",
-    "LICENSE"
+    "LICENSE",
+    "index.ts",
+    "src",
+    "!src/tests"
   ],
   "repository": {
     "type": "git",
