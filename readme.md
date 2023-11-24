@@ -1,10 +1,20 @@
 # TOFTSLanguage
 
-The language translater for TOFTS
+The language translater for TOFTS.
 
 ## Install
 ```bash
 npm install toftslanguage
+```
+
+## Import
+Using ESM:
+```javascript
+import { toEnglish, toTOFTS } from 'toftslanguage';
+```
+Using CommonJS:
+```javascript
+const { ToEnglish, toTOFTS } = require('toftslanguage');
 ```
 
 ## Usage
