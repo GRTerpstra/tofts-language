@@ -1,11 +1,13 @@
 # TOFTSLanguage
 
 The language translater for TOFTS.
+&nbsp;
 
 ## Install
 ```bash
 npm install toftslanguage
 ```
+&nbsp;
 
 ## Import
 Using ESM:
@@ -14,8 +16,9 @@ import { toEnglish, toTOFTS } from 'toftslanguage';
 ```
 Using CommonJS:
 ```javascript
-const { ToEnglish, toTOFTS } = require('toftslanguage');
+const { toTOFTS } = require('toftslanguagetemp');
 ```
+&nbsp;
 
 ## Usage
 
@@ -27,6 +30,7 @@ translate the TOFTS language to English:
 ```javascript
 toEnglish('Zlyi yi e zaxz Y vebz zc zgebikeza zc ZCQZI')
 ```
+&nbsp;
 
 ### Development / Publishing
 After completing development, before publishing ensure that you run:
@@ -43,6 +47,7 @@ When you're prepared to publish run:
 npm login
 npm publish
 ```
+&nbsp;
 
 ## License
 [ISC](https://opensource.org/license/isc-license-txt/)
