@@ -1,15 +1,18 @@
 {
   "compilerOptions": {
-    "target": "es2016",
+    "target": "esnext",
     "module": "CommonJS",
-    "outDir": "./dist",
+    "outDir": "./lib",
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
     "strict": true,
     "skipLibCheck": true,
     "allowJs": true,
+    // The "d.ts" file is used to provide typescript type information about this library that's published in JavaScript (The source code TypeScript from this library is getting transpiled to JavaScript before publishing).
     "declaration": true,
-    "declarationMap": true
+    "declarationMap": true,
+    "emitDeclarationOnly": true,
+    "isolatedModules": true
   },
   "include": ["*.ts"],
   "exclude": ["src/tests/**/*"]

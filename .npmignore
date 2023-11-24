@@ -1,3 +1,6 @@
-src/
-*.ts
-tsconfig.json
+# .npmignore is a file used to ignore files while publishing your node package to npm registry. By using a .npmignore file in your node package root you can keep stuff out of your package.
+# If a project has both .npmignore and .gitignore, npm will only use the .npmignore file. Make sure you are aware of this as a developer so you do not push sensitive files that you have ignored in .gitignore, but forgot to ignore in .npmignore. Always use the whitelisting variant of the 'files' field in the package.json. We use the files field in this library.
+
+# src/
+#*.ts
+#tsconfig.json
