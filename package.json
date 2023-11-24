@@ -1,6 +1,6 @@
 {
   "name": "toftslanguage",
-  "version": "1.0.4",
+  "version": "1.0.0",
   "description": "Language transformer that translates the TOFTS language to English and vice versa.",
   "//": "The files field is an array of file patterns that describes the entries to be included when your package is installed as a dependency. File patterns follow a similar syntax to .npmignore, but reversed (whitelist instead of blacklist)",
   "main": "lib/index.js",
@@ -8,7 +8,7 @@
   "scripts": {
     "test": "jest",
     "//": "build into the lib folder because this project is a library. Usually the dist folder is for shipping an UMD that a user can use if they aren't using package management. The lib folder is what package.json main points to, and users that install your package using npm will consume that directly.",
-    "build:compile": "rm -rf lib && babel . --extensions .ts --out-dir lib",
+    "build:compile": "rm -rf lib && babel . --extensions .ts --out-dir lib ",
     "build:types": "npx tsc",
     "build": "concurrently npm:build:*"
   },
@@ -28,7 +28,7 @@
   "files": [
     "lib",
     "readme.md",
-    "package.json"
+    "LICENSE"
   ],
   "repository": {
     "type": "git",
