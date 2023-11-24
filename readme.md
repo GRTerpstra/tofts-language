@@ -19,4 +19,4 @@ toEnglish('Klyi yi e kaxk Y vebk kc kgebizeka kc KCQKI')
 ```
 
 ## License
-[MIT](https://choosealicense.com/licenses/mit/)
+[ISC](https://opensource.org/license/isc-license-txt/)
