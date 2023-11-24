@@ -6,18 +6,18 @@ The language translater for TOFTS.
 
 ## Install
 ```bash
-npm install toftslanguage
+npm install tofts-language
 ```
 &nbsp;
 
 ## Import
 Using ESM:
 ```javascript
-import { toEnglish, toTOFTS } from 'toftslanguage';
+import { toEnglish, toTOFTS } from 'tofts-language';
 ```
 Using CommonJS:
 ```javascript
-const { toTOFTS } = require('toftslanguagetemp');
+const { toTOFTS } = require('tofts-language');
 ```
 &nbsp;
 
