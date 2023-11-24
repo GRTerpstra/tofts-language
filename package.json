@@ -1,5 +1,5 @@
 {
-  "name": "toftslanguage",
+  "name": "tofts-language",
   "version": "1.0.0",
   "description": "Language transformer that translates the TOFTS language to English and vice versa.",
   "main": "lib/index.js",

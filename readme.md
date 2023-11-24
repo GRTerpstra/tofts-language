@@ -1,4 +1,4 @@
-# TOFTSLanguage
+# tofts-language
 
 The language translater for TOFTS.
 
