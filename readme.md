@@ -33,7 +33,7 @@ toEnglish('Zlyi yi e zaxz Y vebz zc zgebikeza zc ZCQZI')
 ```
 &nbsp;
 
-### Development / Publishing
+## Development / Publishing
 After completing development, before publishing ensure that you run:
 
 ```javascript
